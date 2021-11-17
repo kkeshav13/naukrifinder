@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+	background:white ;
+}
+
+.homepage-banner{
+	width: 100%;
+	height: 300px;
+}
+
+.navbar{
+	background: red !important;
+}
+
+.nav-item{
+	color: black !important;
+	font-size: 25px;
+	margin-left: 2vw;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 2px;
+	transition: transform .2s;
+}
+.active{
+	color: white !important;
+}
+.nav-item:hover{
+	color: white !important;
+	-ms-transform: scale(1.2); /* IE 9 */
+	-webkit-transform: scale(1.2); /* Safari 3-8 */
+	transform: scale(1.2);
+}
+
+.navbar-nav{
+	margin-left: 7vw;
+}
+.social-media{
+	padding-top: 15px;
+	padding-bottom: 5px;
+	font-size: 20px;
+	background: black;
+}
+@media only screen and (max-width: 900px) {
+  
+	.navbar{
+		height: auto;
+	}
+  .navbar-toggler-icon{
+  	width: 25px;
+  	height: 15px;
+  }
+  .navbar-nav {
+  	margin-top: 2vh;
+  	margin-left: 0;
+  }
+  .nav-item:hover{
+	color: white !important;
+	-ms-transform: scale(1); /* IE 9 */
+	-webkit-transform: scale(1); /* Safari 3-8 */
+	transform: scale(1);
+	}
+  .homepage-banner{
+  	height: 100px;
+  }
+  .nav-link{
+  	font-size: 15px;
+  	letter-spacing: 1px;
+  }
+
+}
+
+.main-table{
+	margin-top: 5vh;
+	margin-left: 4vw;
+}
+
+.left{
+  float: left;
+  width: 32%;
+  padding: 10px;
+  border: solid #f3e304;
+  height: 1000px;
+}
+
+.right{
+  float: left;
+  width: 32%;
+  padding: 10px;
+  border: solid #f3e304;
+  height: 1000px;
+}
+.center{
+  float: left;
+  width: 32%;
+  padding: 10px;
+  border: solid #f3e304;
+  height: 1000px;
+}
+
+.left h1,.right h1,.center h1{
+	color: black;
+	font-family: 'Londrina Solid', cursive;
+	margin-bottom: 5vh;
+
+}
+
+.heading{
+	background: #f3e304;
+	text-align: center;
+}
+
+.job-links {
+	//font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	border-bottom: 1px solid;
+	color: black;
+
+}
+
+.job-links:hover{
+	color: red;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+
+	.main-table{
+		margin-top: 1vh;
+	}
+	.left{
+		text-align: center;
+		margin-left: 8%;
+		width: 80%;
+		height: auto;
+	}
+	.right{
+		text-align: center;
+		margin-left: 8%;
+		width: 80%;
+		height: auto;
+	}
+	.center{
+		text-align: center;
+		margin-left: 8%;
+		width: 80%;
+		height: auto;
+	}
+	.left h1,.right h1,.center h1{
+	margin-bottom: 2vh;
+
+	}
+	.job-links{
+		font-size: 15px;
+	}
+	.heading h1{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 20px;
+		letter-spacing: 5px;
+	}
+
+	.social-media{
+		margin-top: 0;
+		font-size: 5px;
+	}
+}
